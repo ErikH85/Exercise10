@@ -15,6 +15,13 @@ public class Main {
         LottoGenerator lg = new LottoGenerator();
         lg.generateNumbers();
 
+        int[] unSorted = {5,1,4,2,8,16,2,7,6};
+        BubbleSort bs = new BubbleSort();
+        bs.sortArray(unSorted);
+        for (int i: unSorted) {
+            System.out.println(i);
+        }
+
     }
 
 }

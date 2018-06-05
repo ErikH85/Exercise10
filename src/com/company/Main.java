@@ -12,6 +12,9 @@ public class Main {
         System.out.println("minsta värde: " + ah.minNumber(intArr));
         System.out.println("summan: " + ah.sum(intArr));
 
+        LottoGenerator lg = new LottoGenerator();
+        lg.generateNumbers();
+
     }
 
 }

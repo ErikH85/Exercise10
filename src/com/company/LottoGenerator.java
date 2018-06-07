@@ -4,6 +4,10 @@ import java.util.Random;
 
 public class LottoGenerator {
 
+    //ev. lägga på en omslutande loop som pågår fram tills att man är säker på att det inte finns någon dublett
+    // loopen behöver ev inte vara omslutande, men det kommer att behövas finnas en while-loop som körs fram tills att
+    // vilkoret för inga dubletter är uppfyllt.
+
     public void generateNumbers(){
         Random rand = new Random();
         int[] numbers = new int[7];
